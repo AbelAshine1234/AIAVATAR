@@ -28,14 +28,14 @@ export default function NavBar() {
         {/* Desktop Navigation Links */}
         <div className="hidden md:flex items-center space-x-4">
           <Link
-            href="/"
+            href="http://localhost:8080"
             // Button style: White background, BLACK text, subtle gray hover, added shadow
             className="bg-white text-black hover:bg-gray-200 px-4 py-2 rounded transition-colors text-sm font-medium shadow-sm"
           >
             Home
           </Link>
           <Link
-            href="http://localhost:3001/destinations"
+            href="http://localhost:8080/destinations"
             className="bg-white text-black hover:bg-gray-200 px-4 py-2 rounded transition-colors text-sm font-medium shadow-sm"
             target="_blank"
             rel="noopener noreferrer"
@@ -43,7 +43,7 @@ export default function NavBar() {
             Destinations
           </Link>
           <Link
-            href="http://localhost:3001/packages"
+            href="http://localhost:8080/packages"
             className="bg-white text-black hover:bg-gray-200 px-4 py-2 rounded transition-colors text-sm font-medium shadow-sm"
             target="_blank"
             rel="noopener noreferrer"
@@ -51,7 +51,7 @@ export default function NavBar() {
             Tour Packages
           </Link>
           <Link
-            href="http://localhost:3001/ecommerce"
+            href="http://localhost:8080/ecommerce"
             className="bg-white text-black hover:bg-gray-200 px-4 py-2 rounded transition-colors text-sm font-medium shadow-sm"
             target="_blank"
             rel="noopener noreferrer"
@@ -59,7 +59,7 @@ export default function NavBar() {
             Zenbil
           </Link>
           <Link
-            href="http://localhost:3001/admin"
+            href="http://localhost:8080/admin"
             className="bg-white text-black hover:bg-gray-200 px-4 py-2 rounded transition-colors text-sm font-medium shadow-sm"
             target="_blank"
             rel="noopener noreferrer"
@@ -67,7 +67,7 @@ export default function NavBar() {
             Admin
           </Link>
           <a
-            href="http://localhost:3000" // This link stays as is, assuming it's specific to the avatar app's home
+            href="http://localhost:8080" // This link stays as is, assuming it's specific to the avatar app's home
             className="bg-white text-black hover:bg-gray-200 px-4 py-2 rounded transition-colors text-sm font-medium shadow-sm"
             target="_blank"
             rel="noopener noreferrer"
