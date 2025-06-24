@@ -138,10 +138,10 @@ function InteractiveAvatar() {
           ) : sessionState === StreamingAvatarSessionState.INACTIVE ? (
             <div className="flex flex-row gap-4">
               <Button onClick={() => startSessionV2(true)}>
-                Start Voice Chat
+                Video Chat
               </Button>
               <Button onClick={() => startSessionV2(false)}>
-                Start Text Chat
+                Text Chat
               </Button>
             </div>
           ) : (
